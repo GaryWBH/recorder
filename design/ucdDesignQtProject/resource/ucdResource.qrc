@@ -1,8 +1,7 @@
 <RCC>
     <qresource prefix="/source">
-        <file>lock.jpeg</file>
-        <file>circleBtn.jpeg</file>
-        <file>circleBtn.ico</file>
-        <file>lock.ico</file>
+        <file>circleBtn.jpg</file>
+        <file>lock.jpg</file>
+        <file>book.jpg</file>
     </qresource>
 </RCC>

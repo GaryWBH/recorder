@@ -111,7 +111,7 @@ color: rgb(190, 192, 193);</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-image: url(:/source/lock.ico);</string>
+       <string notr="true">background-image: url(:/source/lock.jpg);</string>
       </property>
       <property name="text">
        <string/>
@@ -177,44 +177,517 @@ color: rgb(190, 192, 193);</string>
        </rect>
       </property>
      </widget>
-     <widget class="QWidget" name="">
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>500</y>
+        <width>100</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>立即注册</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>480</y>
-        <width>451</width>
-        <height>61</height>
+        <y>500</y>
+        <width>100</width>
+        <height>25</height>
        </rect>
       </property>
-      <layout class="QHBoxLayout" name="horizontalLayout">
-       <property name="spacing">
-        <number>10</number>
-       </property>
-       <item>
-        <widget class="QPushButton" name="pushButton_5">
-         <property name="text">
-          <string>确认</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="pushButton_6">
-         <property name="text">
-          <string>清空</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="pushButton_7">
-         <property name="text">
-          <string>立即注册</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
+      <property name="text">
+       <string>确认</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>500</y>
+        <width>100</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>清空</string>
+      </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_2"/>
+    <widget class="QWidget" name="page_2">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(246, 246, 246);</string>
+     </property>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>40</y>
+        <width>500</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei</family>
+        <pointsize>18</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>欢迎您，王斌晖，欢迎使用本软件！</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>160</y>
+        <width>250</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>共有攻略书：0个</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>180</y>
+        <width>64</width>
+        <height>64</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/source/book.jpg);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>320</y>
+        <width>64</width>
+        <height>64</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/source/book.jpg);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>300</y>
+        <width>250</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>已读攻略书：0个</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>450</y>
+        <width>64</width>
+        <height>64</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/source/book.jpg);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>430</y>
+        <width>250</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>未读攻略书：0个</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(246, 246, 246);</string>
+     </property>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>220</y>
+        <width>400</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(210, 210, 210);</string>
+      </property>
+      <property name="text">
+       <string>未读攻略书：0个</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>360</y>
+        <width>400</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(210, 210, 210);</string>
+      </property>
+      <property name="text">
+       <string>软     件     信     息</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>80</y>
+        <width>400</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(210, 210, 210);</string>
+      </property>
+      <property name="text">
+       <string>已读攻略书：0个</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(246, 246, 246);</string>
+     </property>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>80</y>
+        <width>600</width>
+        <height>440</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>1.第一关攻略
+
+1.第一关攻略
+
+1.第一关攻略
+
+1.第一关攻略
+
+1.第一关攻略
+
+1.第一关攻略
+
+1.第一关攻略
+
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>20</y>
+        <width>600</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>未读/已读攻略列表</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_5">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(246, 246, 246);</string>
+     </property>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>20</y>
+        <width>600</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>攻略xxxxxx</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>80</y>
+        <width>600</width>
+        <height>440</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦
+啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻
+略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦
+啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻
+略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦
+啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦
+啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦
+啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦
+啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻
+略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦
+啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦
+啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦
+啦啦啦啦攻略啦啦啦啦啦啦啦攻略啦啦啦啦啦啦啦</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_6">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(246, 246, 246);</string>
+     </property>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>290</y>
+        <width>64</width>
+        <height>64</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>用户名：</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>480</y>
+        <width>100</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>清空</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>252</x>
+        <y>306</y>
+        <width>256</width>
+        <height>32</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>480</y>
+        <width>100</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>确认</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="geometry">
+       <rect>
+        <x>252</x>
+        <y>406</y>
+        <width>256</width>
+        <height>32</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_24">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>390</y>
+        <width>64</width>
+        <height>64</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>密  码:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>90</y>
+        <width>371</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>40</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>注册中！！！</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
@@ -233,8 +706,7 @@ color: rgb(190, 192, 193);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/source/circleBtn.ico);
-background-color: rgb(64, 65, 66);</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>用户</string>
@@ -297,11 +769,10 @@ background-color: rgb(64, 65, 66);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/source/circleBtn.ico);
-background-color: rgb(64, 65, 66);</string>
+     <string notr="true"/>
     </property>
     <property name="text">
-     <string>确定</string>
+     <string>主页</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
@@ -321,8 +792,7 @@ background-color: rgb(64, 65, 66);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/source/circleBtn.ico);
-background-color: rgb(64, 65, 66);</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>上一页</string>
@@ -345,8 +815,7 @@ background-color: rgb(64, 65, 66);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/source/circleBtn.ico);
-background-color: rgb(64, 65, 66);</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>下一页</string>
